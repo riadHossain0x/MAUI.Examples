@@ -14,7 +14,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button Margin="0, 0, 10, 0" Text="Apply" Grid.Column="0"></Button>
+                    <Button x:Name="btnApply" Clicked="btnApply_Clicked" Margin="0, 0, 10, 0" Text="Apply" Grid.Column="0"></Button>
                     <Button Text="Reset" Grid.Column="1"></Button>
                     <Button Margin="10, 0, 0, 0" Text="Refresh" Grid.Column="2"></Button>
                 </Grid>
@@ -23,7 +23,7 @@
 
                 <!-- Description -->
                 <Label Text="Description" Margin="0, 10, 0, 0"/>
-                <Entry FontSize="Small"/>
+                <Entry x:Name="txtDescription" FontSize="Small"/>
 
                 <!-- Status and Revision -->
                 <Grid Margin="0, 10, 0, 0">
@@ -71,11 +71,11 @@
                     <StackLayout Grid.Column="0">
                         <StackLayout Orientation="Horizontal">
                             <CheckBox/>
-                            <Label Margin="0, 10, 0, 0" Text="Weld" />
+                            <Label VerticalTextAlignment="Center" Text="Weld" />
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
                             <CheckBox/>
-                            <Label Margin="0, 10, 0, 0" Text="Assembly" />
+                            <Label VerticalTextAlignment="Center" Text="Assembly" />
                         </StackLayout>
                     </StackLayout>
 
@@ -83,11 +83,11 @@
                     <StackLayout Grid.Column="1" Margin="5, 0, 0, 0">
                         <StackLayout Orientation="Horizontal">
                             <CheckBox/>
-                            <Label Margin="0, 10, 0, 0" Text="Lathe" />
+                            <Label VerticalTextAlignment="Center" Text="Lathe" />
                         </StackLayout>
                         <StackLayout Orientation="Horizontal">
                             <CheckBox/>
-                            <Label Margin="0, 10, 0, 0" Text="Drill" />
+                            <Label VerticalTextAlignment="Center" Text="Drill" />
                         </StackLayout>
                     </StackLayout>
                 </Grid>
