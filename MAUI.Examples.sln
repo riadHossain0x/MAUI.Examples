@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeZoneApp", "TimeZoneApp\TimeZoneApp.csproj", "{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D3B49F-1192-43FB-8DD5-1D1B4C26D988}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

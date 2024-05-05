@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeZoneApp.MainPage">
+
+    <Border Padding="10">
+        <StackLayout>
+            <Label Text="Pickers" FontSize="20" HorizontalOptions="Center"/>
+            <DatePicker x:Name="dp" MaximumDate="2024/5/5" MinimumDate="2000/12/31" Format="yyyy/MM/dd" Margin="0, 10, 0, 0"/>
+            <TimePicker x:Name="tp" Margin="0, 10, 0, 0"/>
+            <Picker x:Name="MyPicker" Title="Select Location">
+                <Picker.Items>
+                    <x:String>Bangladesh</x:String>
+                    <x:String>USA</x:String>
+                    <x:String>UK</x:String>
+                    <x:String>Australia</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button x:Name="btnDetails" Clicked="btnDetails_Clicked" Text="Details" Margin="0, 10, 0, 0"/>
+            <Label x:Name="lblDetails" Margin="0, 10, 0, 0" />
+        </StackLayout>
+    </Border>
+</ContentPage>
